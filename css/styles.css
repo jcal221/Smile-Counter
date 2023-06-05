@@ -41,6 +41,7 @@ p,
 #smiled-back-count,
 #not-smiled-back-count {
   color: #000000;
+  font-size: 400%; 
 }
 
 h3 {
