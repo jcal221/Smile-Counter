@@ -60,7 +60,7 @@ button {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin: 10px;
+  margin: 5px; /* Reduced horizontal margin */
 }
 
 button#smiled-back-btn {
@@ -92,8 +92,8 @@ button#reset-btn {
 }
 
 .button-container button {
-  margin: 5px;
-  width: 150px; /* Updated button width */
+  margin: 5px; /* Reduced horizontal margin */
+  width: 120px; /* Updated button width */
 }
 
 button#smiled-back-btn,
@@ -154,6 +154,11 @@ h3,
 p {
   margin-top: 5px; /* Updated margin value */
   margin-bottom: 5px; /* Updated margin value */
+}
+
+#outro {
+  font-weight: bold;
+  font-style: italic;
 }
 
 /* Responsive Styles */

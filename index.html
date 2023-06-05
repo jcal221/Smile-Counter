@@ -19,11 +19,11 @@
     <h3>Use our Smile Counter App to record your results!</h3>
     <div class="smile-box">
       <div class="smiled-back-box">
-        <h2 id="smiled-back-count">0</h2>
+        <button id="smiled-back-count" onclick="incrementSmiledBack()">0</button>
         <button id="smiled-back-btn" onclick="incrementSmiledBack()">😁😆</button>
       </div>
       <div class="not-smiled-back-box">
-        <h2 id="not-smiled-back-count">0</h2>
+        <button id="not-smiled-back-count" onclick="incrementNotSmiledBack()">0</button>
         <button id="not-smiled-back-btn" onclick="incrementNotSmiledBack()">😒😕</button>
       </div>
     </div>
@@ -34,7 +34,7 @@
     <button id="reset-btn" onclick="reset()">RESET</button>
     <h3>Smiling is contagious! It creates positivity, fosters connections, and boosts mood.</h3>
     <h3>Harness the power of non-verbal communication to influence social interactions.</h3>
-    <h3>Spread kindness, one smile at a time!</h3>
+    <h3 id="outro">Spread kindness, one smile at a time!</h3>
   </div>
   <!-- JavaScript -->
   <script src="js/promise-polyfill.js"></script>
@@ -42,4 +42,3 @@
   <script src="js/scripts.js"></script>
 </body>
 </html>
-
