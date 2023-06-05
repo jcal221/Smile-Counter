@@ -99,7 +99,7 @@ button#reset-btn {
 button#smiled-back-btn,
 button#not-smiled-back-btn,
 button#reset-btn {
-  width: 150px; /* Updated button width */
+  width: 120px; /* Updated button width */
 }
 
 button#smiled-back-btn:hover,
@@ -169,5 +169,13 @@ p {
   .container {
     width: 95%;
     padding: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .smiled-back-box button,
+  .not-smiled-back-box button {
+    width: 30%; /* Adjusted button width for smaller screens */
+    padding: 10px; /* Adjusted button padding for smaller screens */
   }
 }
