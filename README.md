@@ -1,4 +1,16 @@
-# Smile-Counter
-Experience the "Smile Experiment"! Join our social experiment by smiling at random people in public places. Will they smile back? Smiling is contagious, creating positivity and fostering connections. Use our Smile Counter App to record your results! Spread kindness, one smile at a time!
+# smile-counter-app
 
-Note: Remember to include the necessary CSS and JavaScript files for the app to function properly.
+Experience the "Smile Experiment"!
+
+Join our social experiment by walking around public places, parks, malls, or busy streets, and smiling at random people. Will they smile back?
+Smiling is contagious, creating positivity, fostering connections, and boosting mood. Harness the power of non-verbal communication to influence social interactions.
+
+Use our Smile Counter App to record your results!
+
+Spread kindness, one smile at a time!
+
+## Technologies Used
+
+- HTML5: Markup language used for structuring the web page.
+- CSS3: Styling language used for customizing the appearance of the web page.
+- JavaScript: Programming language used for adding interactivity and functionality to the application.

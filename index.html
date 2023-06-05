@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Smile Counter App - Experience the "Smile Experiment"!</title>
-  </head>
-  <body>
-    <div class="container">
-      <h3>Join the "Smile Experiment"!</h3>
-      <h1>😁🤣<br>
-        Smile Counter App<br>😆🤪</h1>
-      <h3>Walk around public places, parks, malls, or busy streets, and smile at random people.</h3> 
-      <h3>Will they smile back?</h3>
-      <h3>Use our Smile Counter App to record your results!</h3>
-      <div class="smile-box">
-        <div class="smiled-back-box">
-          <h2 id="smiled-back-count">0</h2>
-          <button id="smiled-back-btn" onclick="incrementSmiledBack()">😁😆🤣</button>
-        </div>
-        <div class="not-smiled-back-box">
-          <h2 id="not-smiled-back-count">0</h2>
-          <button id="not-smiled-back-btn" onclick="incrementNotSmiledBack()">🥺😒😕</button>
-        </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Smile Counter App - Experience the "Smile Experiment"!</title>
+</head>
+<body>
+  <div class="container">
+    <h3>Experience the "Smile Experiment"!</h3>
+    <h1>
+      😁🤣<br>
+      Smile Counter App<br>😆🤪
+    </h1>
+    <h3>Walk around public places, parks, malls, or busy streets, and smile at random people.</h3>
+    <h3>Will they smile back?</h3>
+    <h3>Use our Smile Counter App to record your results!</h3>
+    <div class="smile-box">
+      <div class="smiled-back-box">
+        <h2 id="smiled-back-count">0</h2>
+        <button id="smiled-back-btn" onclick="incrementSmiledBack()">😁😆🤣</button>
       </div>
-      <h2 id="smiles-back-percentage">0</h2>
-      <h1>😁% Smiles Back😁:</h1>
-      <p id="total-participants">Total participants: </p>
-      <button id="reset-btn" onclick="reset()">RESET</button>
-      <h3>Smiling is contagious! it creates positivity, fosters connections, and boosts mood.</h3>
-      <h3>Harness the power of non-verbal communication to influence social interactions.</h3>
-      <h3>Spread kindness, one smile at a time!</h3>
-    </div>    
-    <!-- JavaScript -->
-    <script src="js/promise-polyfill.js"></script>
-    <script src="js/fetch-polyfill.js"></script>
-    <script src="js/scripts.js"></script>
-  </body>
+      <div class="not-smiled-back-box">
+        <h2 id="not-smiled-back-count">0</h2>
+        <button id="not-smiled-back-btn" onclick="incrementNotSmiledBack()">🥺😒😕</button>
+      </div>
+    </div>
+    <h2 id="smiles-back-percentage">0</h2>
+    <h1>😁% Smiles Back😁:</h1>
+    <p id="total-participants">Total participants: </p>
+    <button id="reset-btn" onclick="reset()">RESET</button>
+    <h3>Smiling is contagious! It creates positivity, fosters connections, and boosts mood.</h3>
+    <h3>Harness the power of non-verbal communication to influence social interactions.</h3>
+    <h3>Spread kindness, one smile at a time!</h3>
+  </div>
+  <!-- JavaScript -->
+  <script src="js/promise-polyfill.js"></script>
+  <script src="js/fetch-polyfill.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
 </html>
+
